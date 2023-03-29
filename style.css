@@ -60,25 +60,32 @@ li {
     align-self: center;
     font-weight: bold;
     font-size: 30px;
+    line-height: 10px;
 }
 
+.header-main ul{
+    padding: 15px;
+}
 .header-main ul li{
-    float: left;
-    padding: 25px 0px;
+    display: inline;
+    padding: 15px 15px;
 }
 
 .header-main ul li a {
     color: black;
     font-weight: bold;
-    padding-right: 25px;
 }
 .header-main ul li a:hover {
     color: #eea908;
 }
 
 /* Banner */
-.banner img {
+.banner  {
+    width: 100%;
     max-width: 100%;
+    height: 800px;
+    background-image: url(images/2.jpg);
+    background-size: 100%;
 }
 
 /* Welcome */
@@ -210,8 +217,8 @@ li {
     border-bottom: 1px solid #ddd;
 }
 
-.news .list-news .item-news:last-child {
-    border-bottom: 0px solid #fff;
+.news .list-news .item-news:nth-child(3) {
+    border-bottom: 0px solid #ddd;
 }
 
 .news .list-news .item-news .news-info p {
@@ -270,6 +277,7 @@ li {
 
 .news .day-event {
     border-radius: 5px;
+    overflow: hidden;
 
 }
 
@@ -284,7 +292,6 @@ li {
 .news .day-event .der-day-event {
     background-color: #eea908;
     text-align: center;
-    color: #fff;
     padding: 20px;
 }
 /* item-footer */
