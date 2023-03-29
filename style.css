@@ -220,7 +220,7 @@ li {
 .news .list-news .item-news:nth-child(3) {
     border-bottom: 0px solid #ddd;
 }
-
+ 
 .news .list-news .item-news .news-info p {
     padding-bottom: 12px;
     line-height: 1.2;
