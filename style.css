@@ -309,7 +309,7 @@ footer{
     background-color: #050f3b;
 }
 footer .item-footer *{
-    padding: 12px 0px;
+    padding: 10px 0px;
 }
 footer .item-footer{
     float: left;
@@ -330,4 +330,10 @@ footer .copyright{
 footer .fa-solid{
     color: #eea908;
     margin-right: 10px;
+}
+footer .first-item-footer h2{
+    margin-bottom: 7px;
+}
+footer .first-item-footer p{
+    padding: 5px 0px;
 }
