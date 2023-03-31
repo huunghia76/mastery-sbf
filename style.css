@@ -42,10 +42,18 @@ li {
     font-weight: bold;
     cursor: pointer;
 }
+.btn-main:hover {
+    color: black;
+    background-color: #ebb642;
+}
 
 /* header-main */
+.header-main  {
+    align-self: center;
+}
 .header-main .logo {
     padding: 10px 0px;
+    display: inline-flex;
 }
 
 .header-main .logo i {
@@ -56,7 +64,7 @@ li {
     margin-right: 10px;
 }
 
-.header-main .logo span {
+.header-main .logo h1 {
     align-self: center;
     font-weight: bold;
     font-size: 30px;
@@ -64,7 +72,7 @@ li {
 }
 
 .header-main ul{
-    padding: 15px;
+    padding: 12px;
 }
 .header-main ul li{
     display: inline;
@@ -252,13 +260,15 @@ li {
     width: 20%;
 }
 
-.news .event-info .time-event>span:first-child {
+.news .event-info .time-event>p:first-child {
     border-right: 1px solid #ccc;
     padding-right: 5px;
 }
 
-.news .event-info .time-event {
-    color: blue;
+.news .event-info .time-event p{
+    display: inline;
+    color: #081a69;
+    padding: 0px 10px 0px 0px;
 }
 
 .news .event-info p {
