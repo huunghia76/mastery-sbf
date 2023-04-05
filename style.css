@@ -82,7 +82,7 @@ li {
 
 .header-main ul li a {
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
 .header-main ul li a:hover {
     color: #c4a11a;
